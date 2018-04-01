@@ -1,0 +1,90 @@
+Processed 0 of 2000
+Processed 250 of 2000
+Processed 500 of 2000
+Processed 750 of 2000
+Processed 1000 of 2000
+Processed 1250 of 2000
+Processed 1500 of 2000
+Processed 1750 of 2000
+Processed 0 of 500
+Processed 250 of 500
+Train shape: (2000, 150, 150, 3)
+Test shape: (500, 150, 150, 3)
+('Training', (1600, 150, 150, 3), (1600,))
+('Validation', (400, 150, 150, 3), (400,))
+('Test', (500, 150, 150, 3), (500,))
+('Training set', (1600, 150, 150, 3), (1600, 2))
+('Validation set', (400, 150, 150, 3), (400, 2))
+('Test set', (500, 150, 150, 3), (500, 2))
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+WARNING:tensorflow:From /Users/yingjie10/PycharmProjects/imageRecognition/tf_test/tf_cnn.py:229: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+Initialized
+('Minibatch loss at step', 0, ':', 0.62344432)
+Minibatch accuracy: 68.8%
+Validation accuracy: 48.5%
+('Minibatch loss at step', 50, ':', 0.87657917)
+Minibatch accuracy: 31.2%
+Validation accuracy: 47.8%
+('Minibatch loss at step', 100, ':', 0.72571337)
+Minibatch accuracy: 50.0%
+Validation accuracy: 54.0%
+('Minibatch loss at step', 150, ':', 0.76563311)
+Minibatch accuracy: 37.5%
+Validation accuracy: 56.5%
+('Minibatch loss at step', 200, ':', 0.66416323)
+Minibatch accuracy: 56.2%
+Validation accuracy: 59.0%
+('Minibatch loss at step', 250, ':', 0.5627116)
+Minibatch accuracy: 75.0%
+Validation accuracy: 57.8%
+('Minibatch loss at step', 300, ':', 0.59344697)
+Minibatch accuracy: 68.8%
+Validation accuracy: 64.5%
+('Minibatch loss at step', 350, ':', 0.53344244)
+Minibatch accuracy: 68.8%
+Validation accuracy: 60.8%
+('Minibatch loss at step', 400, ':', 0.59580648)
+Minibatch accuracy: 56.2%
+Validation accuracy: 65.0%
+('Minibatch loss at step', 450, ':', 0.73442554)
+Minibatch accuracy: 62.5%
+Validation accuracy: 64.8%
+('Minibatch loss at step', 500, ':', 0.40937862)
+Minibatch accuracy: 87.5%
+Validation accuracy: 64.2%
+('Minibatch loss at step', 550, ':', 0.39529854)
+Minibatch accuracy: 87.5%
+Validation accuracy: 66.0%
+('Minibatch loss at step', 600, ':', 0.45027685)
+Minibatch accuracy: 75.0%
+Validation accuracy: 59.2%
+('Minibatch loss at step', 650, ':', 0.30545503)
+Minibatch accuracy: 100.0%
+Validation accuracy: 64.5%
+('Minibatch loss at step', 700, ':', 0.55036759)
+Minibatch accuracy: 68.8%
+Validation accuracy: 65.8%
+('Minibatch loss at step', 750, ':', 0.61893415)
+Minibatch accuracy: 62.5%
+Validation accuracy: 66.5%
+('Minibatch loss at step', 800, ':', 0.44143587)
+Minibatch accuracy: 93.8%
+Validation accuracy: 63.8%
+('Minibatch loss at step', 850, ':', 0.55477577)
+Minibatch accuracy: 75.0%
+Validation accuracy: 65.0%
+('Minibatch loss at step', 900, ':', 0.41940379)
+Minibatch accuracy: 81.2%
+Validation accuracy: 65.5%
+('Minibatch loss at step', 950, ':', 0.55878472)
+Minibatch accuracy: 68.8%
+Validation accuracy: 67.2%
+('Minibatch loss at step', 1000, ':', 0.55798876)
+Minibatch accuracy: 75.0%
+Validation accuracy: 65.2%

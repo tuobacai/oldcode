@@ -1,0 +1,111 @@
+/anaconda/bin/python2.7 /Users/yingjie10/PycharmProjects/imageRecognition/keras_cnn/modelTrain.py
+Using TensorFlow backend.
+Found 2000 images belonging to 2 classes.
+Found 800 images belonging to 2 classes.
+Epoch 1/50
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2000/2000 [==============================] - 283s - loss: 0.8223 - acc: 0.5300 - val_loss: 0.6834 - val_acc: 0.6375
+Epoch 2/50
+2000/2000 [==============================] - 284s - loss: 0.6757 - acc: 0.5830 - val_loss: 0.6481 - val_acc: 0.6325
+Epoch 3/50
+2000/2000 [==============================] - 3600s - loss: 0.6500 - acc: 0.6275 - val_loss: 0.6392 - val_acc: 0.6512
+Epoch 4/50
+2000/2000 [==============================] - 308s - loss: 0.6232 - acc: 0.6605 - val_loss: 0.6481 - val_acc: 0.6450
+Epoch 5/50
+2000/2000 [==============================] - 475s - loss: 0.6231 - acc: 0.6495 - val_loss: 0.6206 - val_acc: 0.6550
+Epoch 6/50
+2000/2000 [==============================] - 278s - loss: 0.6119 - acc: 0.6610 - val_loss: 0.6055 - val_acc: 0.6600
+Epoch 7/50
+2000/2000 [==============================] - 259s - loss: 0.6045 - acc: 0.6770 - val_loss: 0.5975 - val_acc: 0.6825
+Epoch 8/50
+2000/2000 [==============================] - 259s - loss: 0.5934 - acc: 0.6795 - val_loss: 0.6769 - val_acc: 0.6650
+Epoch 9/50
+2000/2000 [==============================] - 258s - loss: 0.5881 - acc: 0.6675 - val_loss: 0.6568 - val_acc: 0.6125
+Epoch 10/50
+2000/2000 [==============================] - 257s - loss: 0.5822 - acc: 0.6940 - val_loss: 0.5771 - val_acc: 0.6837
+Epoch 11/50
+2000/2000 [==============================] - 258s - loss: 0.5852 - acc: 0.6890 - val_loss: 0.5704 - val_acc: 0.7025
+Epoch 12/50
+2000/2000 [==============================] - 265s - loss: 0.5676 - acc: 0.7065 - val_loss: 0.5530 - val_acc: 0.7125
+Epoch 13/50
+2000/2000 [==============================] - 273s - loss: 0.5609 - acc: 0.7150 - val_loss: 0.5689 - val_acc: 0.7050
+Epoch 14/50
+2000/2000 [==============================] - 270s - loss: 0.5521 - acc: 0.7160 - val_loss: 0.5744 - val_acc: 0.6825
+Epoch 15/50
+2000/2000 [==============================] - 274s - loss: 0.5380 - acc: 0.7155 - val_loss: 0.5358 - val_acc: 0.7425
+Epoch 16/50
+2000/2000 [==============================] - 266s - loss: 0.5465 - acc: 0.7250 - val_loss: 0.5395 - val_acc: 0.7400
+Epoch 17/50
+2000/2000 [==============================] - 259s - loss: 0.5276 - acc: 0.7360 - val_loss: 0.5382 - val_acc: 0.7275
+Epoch 18/50
+2000/2000 [==============================] - 266s - loss: 0.5263 - acc: 0.7465 - val_loss: 0.5381 - val_acc: 0.7250
+Epoch 19/50
+2000/2000 [==============================] - 280s - loss: 0.5304 - acc: 0.7455 - val_loss: 0.5281 - val_acc: 0.7400
+Epoch 20/50
+2000/2000 [==============================] - 263s - loss: 0.5120 - acc: 0.7475 - val_loss: 0.5444 - val_acc: 0.7300
+Epoch 21/50
+2000/2000 [==============================] - 282s - loss: 0.5072 - acc: 0.7565 - val_loss: 0.5250 - val_acc: 0.7462
+Epoch 22/50
+2000/2000 [==============================] - 285s - loss: 0.4954 - acc: 0.7620 - val_loss: 0.5183 - val_acc: 0.7450
+Epoch 23/50
+2000/2000 [==============================] - 255s - loss: 0.4973 - acc: 0.7670 - val_loss: 0.5210 - val_acc: 0.7425
+Epoch 24/50
+2000/2000 [==============================] - 256s - loss: 0.4850 - acc: 0.7755 - val_loss: 0.5572 - val_acc: 0.7175
+Epoch 25/50
+2000/2000 [==============================] - 253s - loss: 0.4740 - acc: 0.7710 - val_loss: 0.5273 - val_acc: 0.7362
+Epoch 26/50
+2000/2000 [==============================] - 256s - loss: 0.4754 - acc: 0.7830 - val_loss: 0.5614 - val_acc: 0.7200
+Epoch 27/50
+2000/2000 [==============================] - 256s - loss: 0.4509 - acc: 0.7885 - val_loss: 0.5117 - val_acc: 0.7500
+Epoch 28/50
+2000/2000 [==============================] - 256s - loss: 0.4621 - acc: 0.7795 - val_loss: 0.5062 - val_acc: 0.7675
+Epoch 29/50
+2000/2000 [==============================] - 257s - loss: 0.4431 - acc: 0.7935 - val_loss: 0.5433 - val_acc: 0.7425
+Epoch 30/50
+2000/2000 [==============================] - 256s - loss: 0.4346 - acc: 0.8005 - val_loss: 0.5590 - val_acc: 0.7262
+Epoch 31/50
+2000/2000 [==============================] - 255s - loss: 0.4400 - acc: 0.8090 - val_loss: 0.5274 - val_acc: 0.7638
+Epoch 32/50
+2000/2000 [==============================] - 256s - loss: 0.4302 - acc: 0.8015 - val_loss: 0.5057 - val_acc: 0.7525
+Epoch 33/50
+2000/2000 [==============================] - 255s - loss: 0.4256 - acc: 0.7990 - val_loss: 0.5497 - val_acc: 0.7450
+Epoch 34/50
+2000/2000 [==============================] - 256s - loss: 0.4284 - acc: 0.8125 - val_loss: 0.5040 - val_acc: 0.7638
+Epoch 35/50
+2000/2000 [==============================] - 255s - loss: 0.4034 - acc: 0.8195 - val_loss: 0.5012 - val_acc: 0.7662
+Epoch 36/50
+2000/2000 [==============================] - 264s - loss: 0.4154 - acc: 0.8170 - val_loss: 0.6815 - val_acc: 0.7100
+Epoch 37/50
+2000/2000 [==============================] - 266s - loss: 0.4070 - acc: 0.8245 - val_loss: 0.5186 - val_acc: 0.7512
+Epoch 38/50
+2000/2000 [==============================] - 270s - loss: 0.3992 - acc: 0.8225 - val_loss: 0.5854 - val_acc: 0.7288
+Epoch 39/50
+2000/2000 [==============================] - 278s - loss: 0.3875 - acc: 0.8255 - val_loss: 0.5384 - val_acc: 0.7662
+Epoch 40/50
+2000/2000 [==============================] - 269s - loss: 0.4097 - acc: 0.8095 - val_loss: 0.5109 - val_acc: 0.7425
+Epoch 41/50
+2000/2000 [==============================] - 291s - loss: 0.3827 - acc: 0.8315 - val_loss: 0.5402 - val_acc: 0.7362
+Epoch 42/50
+2000/2000 [==============================] - 294s - loss: 0.3617 - acc: 0.8395 - val_loss: 0.5777 - val_acc: 0.7575
+Epoch 43/50
+2000/2000 [==============================] - 278s - loss: 0.3714 - acc: 0.8360 - val_loss: 0.5261 - val_acc: 0.7488
+Epoch 44/50
+2000/2000 [==============================] - 292s - loss: 0.3462 - acc: 0.8455 - val_loss: 0.5207 - val_acc: 0.7612
+Epoch 45/50
+2000/2000 [==============================] - 255s - loss: 0.3602 - acc: 0.8475 - val_loss: 0.5722 - val_acc: 0.7588
+Epoch 46/50
+2000/2000 [==============================] - 254s - loss: 0.3626 - acc: 0.8370 - val_loss: 0.5475 - val_acc: 0.7475
+Epoch 47/50
+2000/2000 [==============================] - 253s - loss: 0.3612 - acc: 0.8415 - val_loss: 0.6419 - val_acc: 0.7625
+Epoch 48/50
+2000/2000 [==============================] - 255s - loss: 0.3438 - acc: 0.8440 - val_loss: 0.6670 - val_acc: 0.7575
+Epoch 49/50
+2000/2000 [==============================] - 274s - loss: 0.3490 - acc: 0.8505 - val_loss: 0.7571 - val_acc: 0.6700
+Epoch 50/50
+2000/2000 [==============================] - 285s - loss: 0.3513 - acc: 0.8385 - val_loss: 0.5909 - val_acc: 0.7450
+
+Process finished with exit code 0
